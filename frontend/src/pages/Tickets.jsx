@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { getTickets, reset } from "../reducers/ticketSlice";
+import { getTickets, reset } from "../features/ticketSlice";
 import Spinner from "../components/Spinner";
 import BackButton from "../components/BackButton";
 import TicketItem from "../components/TicketItem";

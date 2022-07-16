@@ -6,7 +6,7 @@ import { configureStore } from "@reduxjs/toolkit";
 import { applyMiddleware, compose } from "@reduxjs/toolkit";
 import { Provider } from "react-redux";
 import thunk from "redux-thunk";
-import rootReducer from "./reducers";
+import rootReducer from "./features";
 import * as serviceWorker from "./serviceWorker";
 
 const container = document.getElementById("root");

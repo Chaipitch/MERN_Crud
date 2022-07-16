@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-import { createTicket, reset } from "../reducers/ticketSlice";
+import { createTicket, reset } from "../features/ticketSlice";
 import Spinner from "../components/Spinner";
 import BackButton from "../components/BackButton";
 
